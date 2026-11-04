@@ -1,0 +1,25 @@
+{
+  "baseURL": "https://ijeongwoo.github.io/MyProfile-LJW/",
+  "enableGitInfo": false,
+  "themesDir": "themes",
+  "timeout": "120s",
+  "security": {
+    "exec": {
+      "allow": [
+        "^(dart-)?sass$",
+        "^go$",
+        "^git$",
+        "^node$",
+        "^postcss$",
+        "^tailwindcss$",
+        "^asciidoctor$"
+      ]
+    },
+    "allowContent": [
+      "^text/"
+    ]
+  },
+  "theme": [
+    "template"
+  ]
+}

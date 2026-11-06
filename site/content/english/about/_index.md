@@ -1,20 +1,37 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
-image: "/images/image-placeholder.png"
+title: "안녕하세요, 이정우 입니다!"
+meta_title: "소개"
+description: "저의 소개와 대표 활동을 담은 포트폴리오입니다."
+image: "/images/Profile.png"
+image_alt: "노트북으로 작업을 하고 있는 개발자 프로필 아바타"
 layout: "about"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+## 🙋‍♂️ 저를 소개합니다
 
-### This is a title
+안녕하세요! 저는 컴퓨터 앞에서 끊임없이 새로운 것을 배우는 것을 좋아하는 **[이정우]**입니다. 
 
-* Lorem ipsum, dolor sit amet
-* Enim voluptatem dicta expedita veritatis
-* Fugit voluptatibus perspiciatis assumenda
-* Enim voluptatem dicta expedita
-* Corporis illum nesciunt commodi vel
+* **관심 분야**: [AI기술의 발전]
+* **관심을 갖게 된 이유**: [제가 학창시절을 보내며 AI가 나날이발전하는 모습을 봐왔는데 이러한 변화가 놀라울정도로 빨라서 관심을 갖게 되었습니다.]
+* **향후 학습 목표**: [React와 Hugo를 활용한 개인 웹 배포 및 AI기술을 활용한 포트폴리오 작성]
+* **실행 계획**: [코딩공부 와 깃허브 잔디 심기 등 전공을 살려 미래 취업을위한 기반을 단단히 쌓을 수 있는 다양한 활동들을 할 것 입니다.]
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+---
+
+## 🛠 대표 활동 
+
+저의 성장을 보여주는 가장 대표적인 활동을 소개합니다.
+
+### 💻 활동 제목: [컴퓨터인공지능학부 학생회]
+* **수행 시기**: 2026년 03월 ~ 11월
+* **활동 목적**: [선배, 동기들과 교류하며 여러 학교행사 참여]
+* **본인 역할**: [대형과를 끌어나가는 학생회의 국원으로써 행사기획 및 참여율 증진에 힘을 썼고 공학체전이라는 학교의 큰 행사에서 컴퓨터인공지능학부가 여러 종목에서 좋은성적을 거둘 수 있게 많은 보탬이 되었습니다.]
+
+#### 진행 과정 및 결과
+* **과정**: [2026년 10월 계획되어있던 공학체전을 위해 09월 선수모집 및 응원가제작, 과티디자인 등 컴퓨터인공지능학부의 학우분들과 함께 힘을 썼고, 10월 6~8일 공학체전 당일날에는 우리학부의 천막을 관리하며 선수로써 경기에 참여하고 공학체전이 마무라 되며 해단식자리를 지켰습니다.]
+* **산출물/결과**: [본인이 참여한 종목3개 모두에서 준결승까지 갈 수 있었고, 그 중 팔씨름종목에서는 준우승이라는 성적을 걷을 수 있었습니다.]
+
+#### 배운 점 및 개선 방향
+* **배운 점**: [이번 활동을 통해 학생회사이가 더 돈독해질 수 있었고, 그 이유가 함께 고생하며 땀흘린것에 대한 댓가라는점을 깨닫게되었습니다.]
+* **개선 방향**: [성적을 좇지 말고 성장을 좇으라는말이 있듯이 당장 눈앞의 점수볻다는 스스로가 얼마나 배우고 성장하고있는지에 더 집중하는 편이 좋을 것 같습니다.]

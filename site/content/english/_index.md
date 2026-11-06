@@ -8,7 +8,7 @@ banner:
   button:
     enable: true
     label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
+    link: "https://github.com/ijeongwoo"
 
 # Features
 features:
@@ -39,7 +39,7 @@ features:
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      link: "https://github.com/ijeongwoo"
 
   - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
     image: "/images/service-3.png"

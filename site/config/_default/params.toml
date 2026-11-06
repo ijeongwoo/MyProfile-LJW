@@ -39,7 +39,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Github"
-link = "https://github.com/zeon-studio/hugoplate"
+link = "https://github.com/ijeongwoo"
 
 # LLMs Configuration
 # LLMs module: https://github.com/gethugothemes/hugo-modules/tree/master/llms-txt

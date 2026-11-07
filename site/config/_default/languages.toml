@@ -1,5 +1,5 @@
 [ko]
-label = "한국어
-locale = "ko-kr
+languageName = "한국어"
+languageCode = "ko-kr"
 contentDir = "content/korean"
 weight = 1

@@ -1,41 +1,27 @@
-######################## default configuration ####################
-# The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://github.com/ijeongwoo/MyProfile-LJW/"
-# Title of your website (required).
+baseURL = "https://ijeongwoo0109.github.io/MyProfile-LJW/"
 title = "이정우의 포트폴리오"
-# Your theme name
-# theme = "포트폴리오"
-# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
-# post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/summaries/#automatic-summary
-# disable language
 disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
-# default language
-defaultContentLanguage = 'en'
-# defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
+defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = false
 
-########################### Services #############################
 [services]
 [services.googleAnalytics]
 ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
 
-########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorcontentbasename/"
 
 
-########################## Pagination ############################
 [pagination]
 disableAliases = false
 pagerSize = 10
 path = 'page'
 
 
-############################# Build ##############################
 [build]
 [build.buildStats]
 enable = true
@@ -43,7 +29,6 @@ enable = true
 source = 'assets/notwatching/hugo_stats\.json'
 target = 'css'
 
-############################# Modules ############################
 [module]
 [[module.mounts]]
 source = 'assets'
@@ -54,7 +39,6 @@ source = 'hugo_stats.json'
 target = 'assets/notwatching/hugo_stats.json'
 
 
-############################# Outputs ############################
 [outputs]
 home     = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "llms", "llmsfull", "md"]
 page     = ["HTML", "RSS", "md"]
@@ -62,16 +46,13 @@ section  = ["HTML", "RSS", "md"]
 taxonomy = ["HTML", "RSS", "md"]
 term     = ["HTML", "RSS", "md"]
 
-############################# Imaging ############################
 [imaging]
-# See https://github.com/disintegration/imaging
 resampleFilter = "Lanczos"
 [imaging.jpeg]
 quality = 80
 [imaging.webp]
 quality = 80
 
-############################ Caches ##############################
 [caches]
 [caches.images]
 dir = ":resourceDir/_gen"
@@ -82,7 +63,6 @@ dir = ":resourceDir/_gen"
 maxAge = "720h"
 
 
-############################ Markup ##############################
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
@@ -97,13 +77,11 @@ endLevel = 5
 ordered = true
 
 
-########################### Media types ###########################
 [mediaTypes]
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
 
 
-########################### Output Format ##########################
 [outputFormats]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
@@ -116,19 +94,15 @@ isPlainText = true
 notAlternative = true
 
 
-############################# Plugins ##############################
 
-# CSS Plugins
 [[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.css" # https://github.com/gethugothemes/hugo-modules/tree/master/gallery-slider
 lazy = true
 [[params.plugins.css]]
 link = "plugins/glightbox/glightbox.css" 
-# https://github.com/gethugothemes/hugo-modules/tree/master/gallery-slider
 lazy = true
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/brands.css" 
-# https://github.com/gethugothemes/hugo-modules/tree/master/icons/font-awesome
 lazy = true
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/solid.css"
@@ -137,13 +111,11 @@ lazy = true
 link = "plugins/font-awesome/v6/icons.css"
 lazy = true
 
-# JS Plugins
 [[params.plugins.js]]
 link = "js/search.js" # https://github.com/gethugothemes/hugo-modules/tree/master/search
 lazy = false
 [[params.plugins.js]]
 link = "plugins/swiper/swiper-bundle.js" 
-# https://github.com/gethugothemes/hugo-modules/tree/master/gallery-slider
 lazy = false
 [[params.plugins.js]]
 link = "plugins/glightbox/glightbox.js" # https://github.com/gethugothemes/hugo-modules/tree/master/gallery-slider

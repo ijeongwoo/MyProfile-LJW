@@ -28,3 +28,5 @@ yarn.lock
 **/.hugo_build.lock
 /.github-pages-setup-backups/
 __pycache__/
+site/public/
+site/resources/

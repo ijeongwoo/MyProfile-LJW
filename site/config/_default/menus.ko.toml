@@ -1,0 +1,24 @@
+[[main]]
+name = "홈"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "소개"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "활동"
+pageRef = "/blog"
+weight = 3
+
+[[footer]]
+name = "소개"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "활동"
+pageRef = "/blog"
+weight = 2
